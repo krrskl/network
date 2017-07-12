@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:500');
+*{
+  font-family: 'Dosis', sans-serif ;
+  transition: all .9s ease;
+}
+body{
+  background: #e6e6e6;
+}
+.nav-bar{
+  background-color: #212121;
+}
+.text h4{
+  text-shadow: 2px 1px 11px #0c0c0c;
+  color: white;
+}
+#index-banner{
+  background-color: rgba(74, 17, 17, 0.46);
+}
+nav{
+  background-color: transparent;
+}
+.icon-block p{
+  text-align: -webkit-center;
+  line-height: 2rem;
+}
+.header{
+  color: #fff;
+}
+.side-nav{
+  background-color: rgba(255, 255, 255, 0.90) !important;
+}
+.side-nav li > a{
+  font-weight: bold;
+}
+.side-nav li{
+  border-bottom: 1px solid rgba(51,51,51,0.32);
+}
+.parallax-container {
+  min-height: 83vh;
+  display: flex;
+  align-items: center;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,2);
+}
+.container-text{
+  min-height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url('../img/portada2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,2);
+}
+.text{
+  width: 80%;
+}
+.parallax-container .section {
+  width: 100%;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .index-text{
+    margin-top: 10vh;
+  }
+  .items-info{
+    background: transparent !important;
+  }
+}
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+footer.page-footer {
+  margin: 0;
+}
+.set1{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.social{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.social-icons img{
+  width: 40px;
+}
+.items-info{
+  min-height: 100vh;
+  background: url(../img/benefits_bg.png) no-repeat center bottom;
+}

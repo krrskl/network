@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:500');
+*{
+	font-family: 'Dosis', sans-serif;
+}
+body {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-image: url('../img/portada3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.loginc{
+	background-color: rgba(255, 255, 255, 0.87);
+	width: 350px;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+	display: block;
+	flex-direction: column;
+	border-radius: 5px;
+	box-shadow: 0 0 9px 0px rgba(0, 0, 0, 0.83);
+}
+.login-top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1.2rem 0;
+}
+.login-form {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: .5rem 2rem 2rem;
+}
+input[type=text], [type=password] {
+	margin: .4rem 0;
+	padding: .5rem;
+	border: none;
+	width: 80%;
+	background: transparent;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+input[type=text]:focus, [type=password]:focus {
+	outline: none;
+}
+.btn-submit { 
+	padding: .5rem 0;
+	margin: 1rem 0 .3rem;
+	background-color: #F44336;
+	box-shadow: 0 0 9px 0px rgba(0, 0, 0, 0.83);
+	color: white;
+	border-radius: 5px;
+	border: 0;
+	text-transform: uppercase;
+}
+.inputs{
+	background: rgba(187, 187, 187, 0.74);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.form-recover, .form-registre {
+	color: #F44336;
+	font-size: 13px;
+	text-decoration: none;
+}
+.form-recover:hover, .form-registre:hover {
+	color: #E67E22;
+}
+.form-footer{
+	width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.form-recover{
+	margin-right: 20px;
+}
